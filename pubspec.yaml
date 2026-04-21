@@ -1,0 +1,68 @@
+name: gestion_de_vehiculos
+description: Aplicacion Flutter para gestion de vehiculos - Proyecto ITLA
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # API y networking
+  dio: ^5.4.3+1
+
+  # Manejo de estado
+  provider: ^6.1.2
+
+  # Almacenamiento local (tokens)
+  shared_preferences: ^2.2.3
+
+  # Imagenes y multimedia
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+
+  # Slider para dashboard
+  carousel_slider: ^5.0.0
+
+  # Abrir enlaces externos
+  url_launcher: ^6.3.0
+
+  # Renderizar HTML en noticias
+  flutter_html: ^3.0.0
+
+  # WebView opcional
+  webview_flutter: ^4.7.0
+
+  # Videos de YouTube
+  youtube_player_flutter: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Generador de icono app
+  flutter_launcher_icons: ^0.14.3
+
+# Configuracion icono app
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icono.png"
+  adaptive_icon_background: "#B30000"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/icons/
+    - assets/images/dashboard/
+    - assets/images/logo/
+    - assets/images/team/
