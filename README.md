@@ -1,22 +1,83 @@
-<<<<<<< HEAD
-# gestion_de_vehiculos
+# Gestion de Vehiculos
 
-A new Flutter project.
+Aplicacion movil desarrollada en Flutter como proyecto academico del ITLA orientada a la administracion de vehiculos, consulta de noticias automotrices y participacion comunitaria mediante foro.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Descripcion General
 
-A few resources to get you started if this is your first Flutter project:
+La aplicacion permite a los usuarios gestionar informacion de sus vehiculos de manera organizada desde un dispositivo movil. Tambien integra contenido informativo y educativo del area automotriz.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+El sistema consume una API REST proporcionada para manejar autenticacion, datos de usuarios, vehiculos, foro, noticias y catalogo.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# gestion_de_vehiculos_flutter
-Aplicación móvil desarrollada en Flutter para gestionar vehículos, consultar noticias automotrices, ver contenido educativo y participar en un foro comunitario.
->>>>>>> 9d5cef8b962e47f27bc7ee1d3f5caf42e1721f86
+---
+
+## Integrantes
+
+- Ramses Ambiorix Arno Rosario  
+  Matricula: 20240078
+
+- Geraldo Familia  
+  Matricula: 20210145
+
+---
+
+## Funcionalidades Implementadas
+
+### Modulos Publicos
+
+- Pantalla Splash inicial
+- Noticias automotrices
+- Detalle de noticias
+- Videos educativos
+- Catalogo de vehiculos
+- Detalle de vehiculos del catalogo
+- Foro comunitario
+- Detalle de temas del foro
+- Pantalla Acerca de
+
+### Modulos Privados
+
+- Registro de usuario
+- Activacion de cuenta
+- Inicio de sesion
+- Perfil del usuario
+- Cambio de foto de perfil
+- Mis vehiculos
+- Crear vehiculo
+- Editar vehiculo
+- Subir foto de vehiculo
+- Crear tema en foro
+- Responder tema
+- Cierre de sesion
+
+---
+
+## Tecnologias Utilizadas
+
+- Flutter
+- Dart
+- Provider
+- Dio
+- SharedPreferences
+- CachedNetworkImage
+- Image Picker
+- Flutter HTML
+- URL Launcher
+- YouTube Player Flutter
+
+---
+
+## Arquitectura del Proyecto
+
+El proyecto fue estructurado por modulos para facilitar mantenimiento y escalabilidad.
+
+```text
+lib/
+ ├── core/
+ ├── models/
+ ├── modules/
+ ├── providers/
+ ├── repositories/
+ ├── services/
+ └── utils/
